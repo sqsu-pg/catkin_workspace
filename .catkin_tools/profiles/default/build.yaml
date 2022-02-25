@@ -1,0 +1,20 @@
+blacklist: []
+build_space: build
+catkin_make_args: []
+cmake_args:
+- -DPYTHON_EXECUTABLE=/home/george/anaconda3/envs/tensorflow_gpu/bin/python3.6
+- -DPYTHON_INCLUDE_DIR=/home/george/anaconda3/envs/tensorflow_gpu/include/python3.6m
+- -DPYTHON_LIBRARY=/home/george/anaconda3/envs/tensorflow_gpu/lib/libpython3.6m.so
+devel_layout: linked
+devel_space: devel
+extend_path: null
+install: false
+install_space: install
+isolate_install: false
+jobs_args: []
+log_space: logs
+make_args: []
+source_space: src
+use_env_cache: false
+use_internal_make_jobserver: true
+whitelist: []
